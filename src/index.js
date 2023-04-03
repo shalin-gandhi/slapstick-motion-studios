@@ -8,9 +8,7 @@ import Home from './views/home'
 const App = () => {
   return (
     <Router>
-      <div>
         <Home />
-      </div>
     </Router>
   )
 }
