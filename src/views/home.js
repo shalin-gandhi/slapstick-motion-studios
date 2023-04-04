@@ -8,6 +8,22 @@ import PortofolioCard from '../components/portofolio-card'
 import './home.css'
 import bgVideo from '../views/BlackBG.mp4';
 
+import * as animationData from "../Lottie/Animation.json";
+import * as audioData from "../Lottie/Audio.json";
+import * as contentData from "../Lottie/Content.json";
+import * as purposeData from "../Lottie/Purpose.json";
+import * as contactData from "../Lottie/Contact.json";
+import * as locationData from "../Lottie/Location.json";
+
+import LogoWhite from "../playground_assets/logowhite-200h.png";
+import TataImg from "../playground_assets/TataSteel.png";
+import CTOTalkImg from "../playground_assets/CTOTalk.png";
+import AntarangImg from "../playground_assets/Antarang.png";
+import LeadCRMImg from "../playground_assets/LeadCRM.png";
+import BuddyBoardImg from "../playground_assets/BuddyBoard.png";
+import LulaSafeImg from "../playground_assets/LulaSafe.png";
+import RecImg from "../playground_assets/rectangle109-1000w.png";
+
 const Home = (props) => {
   return (
     <div className="home-container">
@@ -74,7 +90,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
               >
                 <PortofolioCard
-                  image_src="/playground_assets/TataSteel.png"
+                  image_src={TataImg}
                   rootClassName="portofolio-card-root-class-name"
                   className="home-component1"
                   project_title="Tata Steel | Character Explainer"
@@ -86,7 +102,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
               >
                 <PortofolioCard
-                image_src="/playground_assets/CTOTalk.png"
+                image_src={CTOTalkImg}
                 project_title="CTOTalk | Kinetic Typography"
                 rootClassName="portofolio-card-root-class-name5"
                 ></PortofolioCard>
@@ -97,7 +113,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
               >
                 <PortofolioCard
-                image_src="/playground_assets/Antarang.png"
+                image_src={AntarangImg}
                 project_title="Antarang | Infographics"
                 rootClassName="portofolio-card-root-class-name4"
                 ></PortofolioCard>
@@ -108,7 +124,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
               >
                 <PortofolioCard
-                image_src="/playground_assets/LeadCRM.png"
+                image_src={LeadCRMImg}
                 project_title="LeadCRM | 2D Motion Graphics"
                 rootClassName="portofolio-card-root-class-name3"
                 ></PortofolioCard>
@@ -119,7 +135,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
               >
                 <PortofolioCard
-                image_src="/playground_assets/BuddyBoard.png"
+                image_src={BuddyBoardImg}
                 project_title="BudyBoard | 2D Explainer"
                 rootClassName="portofolio-card-root-class-name2"
                 ></PortofolioCard>
@@ -130,7 +146,7 @@ const Home = (props) => {
                 rel="noreferrer noopener"
               >
                 <PortofolioCard
-                image_src="/playground_assets/LulaSafe.png"
+                image_src={LulaSafeImg}
                 project_title="Lula Insurance | 2D App Explainer"
                 rootClassName="portofolio-card-root-class-name1"
                 ></PortofolioCard>
@@ -167,7 +183,7 @@ const Home = (props) => {
             <div className="home-image-container">
               <img
                 alt="image"
-                src="/playground_assets/rectangle%20109-1000w.png"
+                src={RecImg}
                 className="home-image"
               />
             </div>
@@ -181,7 +197,7 @@ const Home = (props) => {
             </h2>
             <div className="home-step">
               <Player
-                src="/Lottie/Purpose.json"
+                src={purposeData}
                 hover
                 speed="1"
                 autoplay
@@ -202,7 +218,7 @@ const Home = (props) => {
             </div>
             <div className="home-step1">
               <Player
-                src="/Lottie/Content.json"
+                src={contentData}
                 hover
                 speed="1"
                 autoplay
@@ -223,7 +239,7 @@ const Home = (props) => {
             </div>
             <div className="home-step2">
               <Player
-                src="/Lottie/Animation.json"
+                src={animationData}
                 hover
                 speed="1"
                 autoplay
@@ -248,7 +264,7 @@ const Home = (props) => {
             </div>
             <div className="home-step3">
               <Player
-                src="/Lottie/Audio.json"
+                src={audioData}
                 hover
                 speed="1"
                 autoplay
@@ -287,7 +303,7 @@ const Home = (props) => {
           <div className="home-top-part">
             <div className="home-links-container">
               <Player
-                src="/Lottie/Contact.json"
+                src={contactData}
                 speed="1"
                 hover
                 background="transparent"
@@ -298,7 +314,7 @@ const Home = (props) => {
                 <a className="home-text37" href='mailto:work@slapstick.in'>work@slapstick.in</a>
               </div>
               <Player
-                src="/Lottie/Location.json"
+                src={locationData}
                 speed="1"
                 hover
                 loop
@@ -317,7 +333,7 @@ const Home = (props) => {
             <div className="home-subscribe-container">
               <img
                 alt="image"
-                src="/playground_assets/logowhite-200h.png"
+                src={LogoWhite}
                 className="home-image1"
               />
             </div>

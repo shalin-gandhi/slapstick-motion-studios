@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 
 import NavigationLinks from './navigation-links'
 import './navigation.css'
+import LogoWhite from "../playground_assets/logowhite-200h.png";
 
 const Navigation = (props) => {
   return (
@@ -14,7 +15,7 @@ const Navigation = (props) => {
       <div className="navigation-max-width">
         <img
           alt={props.image_alt}
-          src="/playground_assets/logowhite-200h.png"
+          src={LogoWhite}
           className="navigation-image"
         />
         <div className="navigation-nav">
