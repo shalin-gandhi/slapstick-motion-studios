@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/slapstick-motion-studios/static/css/main.5784768b.css",
-    "main.js": "/slapstick-motion-studios/static/js/main.441893e0.js",
-    "static/media/BlackBG.mp4": "/slapstick-motion-studios/static/media/BlackBG.e47b08754b7714b0212a.mp4",
-    "static/media/Antarang.png": "/slapstick-motion-studios/static/media/Antarang.651196a2de3c1d534092.png",
-    "static/media/TataSteel.png": "/slapstick-motion-studios/static/media/TataSteel.271170f58c12a8e756a0.png",
-    "static/media/LeadCRM.png": "/slapstick-motion-studios/static/media/LeadCRM.cabbdbc3964f405f6f3c.png",
-    "static/media/LulaSafe.png": "/slapstick-motion-studios/static/media/LulaSafe.7976189734877aecfb2b.png",
-    "static/media/CTOTalk.png": "/slapstick-motion-studios/static/media/CTOTalk.65a17a3c4ef52e0909b2.png",
-    "static/media/BuddyBoard.png": "/slapstick-motion-studios/static/media/BuddyBoard.8f9e4127278922d5d2aa.png",
-    "static/media/rectangle109-1000w.png": "/slapstick-motion-studios/static/media/rectangle109-1000w.b0898315224a3b473c99.png",
-    "index.html": "/slapstick-motion-studios/index.html",
-    "main.5784768b.css.map": "/slapstick-motion-studios/static/css/main.5784768b.css.map",
-    "main.441893e0.js.map": "/slapstick-motion-studios/static/js/main.441893e0.js.map"
+    "main.css": "/static/css/main.5784768b.css",
+    "main.js": "/static/js/main.c2d10337.js",
+    "static/media/BlackBG.mp4": "/static/media/BlackBG.e47b08754b7714b0212a.mp4",
+    "static/media/Antarang.png": "/static/media/Antarang.651196a2de3c1d534092.png",
+    "static/media/TataSteel.png": "/static/media/TataSteel.271170f58c12a8e756a0.png",
+    "static/media/LeadCRM.png": "/static/media/LeadCRM.cabbdbc3964f405f6f3c.png",
+    "static/media/LulaSafe.png": "/static/media/LulaSafe.7976189734877aecfb2b.png",
+    "static/media/CTOTalk.png": "/static/media/CTOTalk.65a17a3c4ef52e0909b2.png",
+    "static/media/BuddyBoard.png": "/static/media/BuddyBoard.8f9e4127278922d5d2aa.png",
+    "static/media/rectangle109-1000w.png": "/static/media/rectangle109-1000w.b0898315224a3b473c99.png",
+    "index.html": "/index.html",
+    "main.5784768b.css.map": "/static/css/main.5784768b.css.map",
+    "main.c2d10337.js.map": "/static/js/main.c2d10337.js.map"
   },
   "entrypoints": [
     "static/css/main.5784768b.css",
-    "static/js/main.441893e0.js"
+    "static/js/main.c2d10337.js"
   ]
 }
